@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+  <body>
+    <form method="post">
+      <label for="name">Name</label>
+      <input id="name" type="text" required />
+	  <label for="Email">Email</label>
+		<input id="Email" type="text" />
+       <label id="radio" for="Gender">
+         <input type="radio" name="gender" > male 
+        <input type="radio" name="gender" > female </label> 
+     
+      <label id="laptop">
+        laptop Brands
+        <select id="laptop">
+          <option value="laptop">select laptop</option>
+          <option value="Asus">Asus</option>
+          <option value="Apple">Apple</option>
+          <option value="HP">HP</option>
+        </select>
+      
+      <label id="age">Age<input type="number" /></label>
+      <label>Date of birth <input type="dob"  /></label>
+      <label>Password<input type="text" /></label>
+      <button>Submit</button>
+    </form>
+    <!-- the entire body must be written by student -->
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
 </html>
